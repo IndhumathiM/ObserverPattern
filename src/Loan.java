@@ -10,14 +10,7 @@ public class Loan implements Subject {
     private double interest;
     private String bank;
 
-
-    public Loan(String type, double interest, String bank) {
-        this.type = type;
-        this.interest = interest;
-        this.bank = bank;
-    }
-
-    public String getType() {
+     public String getType() {
         return type;
     }
 

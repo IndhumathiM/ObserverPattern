@@ -4,7 +4,7 @@
 public class Client {
     public static void main(String[] args) {
 
-        Loan loan = new Loan("Education", 13.99, "BOA");
+        Loan loan = new Loan();
 
         Newspaper newspaper = new Newspaper();
         Internet internet = new Internet();
@@ -13,6 +13,8 @@ public class Client {
         loan.registerObserver(internet);
 
         loan.setInterest(12.99);
+        
+        loan.setInterest(6.99);
 
     }
 }
